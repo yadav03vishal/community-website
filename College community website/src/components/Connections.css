@@ -1,0 +1,102 @@
+.connections{
+    background-color: rgb(255, 255, 255);
+}
+.connections > h1{
+   text-align: center;
+   margin-top: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .faculty {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    border-top: 3px solid brown;
+    
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .faculty:hover {
+    border: 3px solid rgb(223, 27, 27);
+    background-color: rgb(249, 244, 244);
+  }
+
+  .alumni{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    text-align: center;
+   
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alumni:hover {
+    border: 3px solid rgb(223, 27, 27);
+    background-color: rgb(249, 244, 244);
+  }
+
+  .students {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    flex-direction: column;
+    
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .students:hover {
+    border: 3px solid rgb(223, 27, 27);
+    background-color: rgb(249, 244, 244);
+    
+  }
+
+  .staff {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100px;
+    text-align: center;
+    
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    
+    padding: 10px 0px; 
+     border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .staff:hover {
+    border: 3px solid rgb(223, 27, 27);
+    background-color: rgb(249, 244, 244);
+  } 

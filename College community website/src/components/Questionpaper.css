@@ -1,0 +1,105 @@
+.student_head > p {
+    text-align: center;
+   margin-top: 20px;
+   color: red;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.student__info_box  {
+    display: flex;
+    margin-top: -5px;
+    margin-left: -30px;
+    margin-right: 80px;
+    height: 50px;
+    text-align: center;
+    width: 10%;
+    margin-bottom: 40px;
+    
+   
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.student__info_box:hover{
+    border: 3px solid rgb(223, 27, 27);
+}
+.student__info_box > h2{
+margin-top: 10px;
+margin-left: 18px;
+}
+
+
+
+.student__boxes{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin-left:60px ;
+
+
+    
+   
+    margin-top: 15px;
+}
+
+.it{
+ color: red;
+    margin-top: 30px;
+}
+
+
+
+.student___info_box  {
+    display: flex;
+    margin-top: -5px;
+    margin-left: -30px;
+    margin-right: 80px;
+    height: 50px;
+    text-align: center;
+    width: 10%;
+    margin-bottom: 400px;
+    
+   
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.student___info_box:hover{
+    border: 3px solid rgb(223, 27, 27);
+}
+.student___info_box > h2{
+margin-top: 10px;
+margin-left: 18px;
+}
+
+
+.student___boxes{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin-left:60px ;
+    
+
+    
+   
+    margin-top: 15px;
+}

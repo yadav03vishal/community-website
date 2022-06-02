@@ -1,0 +1,47 @@
+.student_head > h2 {
+    text-align: center;
+   margin-top: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.student_info_box  {
+    display: flex;
+    margin-top: 15px;
+    margin-left: -20px;
+    margin-right: 80px;
+    height: 200px;
+    text-align: center;
+    width: 20%;
+    
+   
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border: 3px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.student_info_box > img {
+    height: 180px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.student_info_box:hover{
+    border: 3px solid rgb(223, 27, 27);
+}
+.student_boxes{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin-left:60px ;
+
+    
+   
+    margin-top: 15px;
+}

@@ -1,0 +1,33 @@
+.outside{
+    background-color: white;
+}
+
+.outside > h2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 40px;
+    margin-bottom: -22px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    border-top: 3px solid brown;
+    
+    padding: 10px;
+    border: 2px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .outside > h2:hover {
+    border: 2px solid rgb(223, 27, 27);
+    
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+  }
+  
